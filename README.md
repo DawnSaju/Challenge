@@ -21,14 +21,14 @@ Stay = 0
 Switch = 0
 ```
 
-7) for i in range(1000): = Declaring a For loop that will run for 1000 times.
+5) for i in range(1000): = Declaring a For loop that will run for 1000 times.
 ```python
 for i in range(1000):
     door = random.choice(Doors)
     player = random.choice(Doors)
 ```
-9) door = random.choice(Doors) = Choosing a Random door and assigning to a variable named as door which is the correct order.
-10) player = random.choice(Doors) = Choosing a Random door and assigning to a variable named as player which is the order that is chosed by the player.
+6) door = random.choice(Doors) = Choosing a Random door and assigning to a variable named as door which is the correct order.
+7) player = random.choice(Doors) = Choosing a Random door and assigning to a variable named as player which is the order that is chosed by the player.
 
 ```python
 if player == door:
@@ -36,13 +36,13 @@ if player == door:
 else:
     Switch += 1
 ```
-12) if player == door: Stay += 1  = Defining an if statement that checks if the player chosed the correct door as the door variable's value, if the statement is True then will add +1 to the Stay Variable.
-13) else: Switch +=1  = if the statement is False then will add +1 to the Switch Variable.
+8) if player == door: Stay += 1  = Defining an if statement that checks if the player chosed the correct door as the door variable's value, if the statement is True then will add +1 to the Stay Variable.
+9) else: Switch +=1  = if the statement is False then will add +1 to the Switch Variable.
 
 ```python
 print("Stay: count {} = {}% | Switch : count {} = {}%".format(Stay, Stay/10, Switch, Switch/10)) 
 ```
-15) Print statement to prints the number of times the player stays with the same door and the percentage of times the player stays with the same door.
+10) Print statement to prints the number of times the player stays with the same door and the percentage of times the player stays with the same door.
 ### Dependencies Used
  
 1) Random
