@@ -7,9 +7,11 @@
 import random
 ```
 
-2) Doors = [1, 2, 3] = Declaring the Doors variable and passing a list of doors.
+2) def Solution():  = Defining the function called Solution.
+3) Doors = [1, 2, 3] = Declaring the Doors variable and passing a list of doors.
 ```python
-Doors = [1, 2, 3]
+def Solution():
+    Doors = [1, 2, 3]
 ```
 
 3) Stay = 0 = Declaring the Stay variable, assigning 0 as the value to it and it functions as a counter for the number of times the player Stays with the same door.
