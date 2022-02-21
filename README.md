@@ -45,6 +45,3 @@ def Solution():
     print("Stay: count {} = {}% | Switch : count {} = {}%".format(Stay, Stay/10, Switch, Switch/10)) 
 ```
 11) Print statement to prints the number of times the player stays with the same door and the percentage of times the player stays with the same door.
-### Dependencies Used
- 
-1) Random
